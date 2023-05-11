@@ -9,6 +9,8 @@
         "@schematics/angular:component": {
           "inlineStyle": true,
           "skipTests": true
+		  "style": "scss",
+          "prefix": "app"
         },
         "@schematics/angular:class": {
           "skipTests": true
