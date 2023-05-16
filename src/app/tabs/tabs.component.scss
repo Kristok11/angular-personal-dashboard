@@ -41,7 +41,7 @@
     transition-timing-function: cubic-bezier(0, 0, 0, 2);
 }
 
-// Shpae styles
+// STYLES FOR THE TAB TILE BACKGROUND 'SHAPE'
 
 .tab-tile::before {
     content: '';
@@ -89,12 +89,12 @@
     transition-delay: 0.2s;
 }
 
-// End of shape styles
+// END OF TAB TILE BACKGROUND 'SHAPE' STYLES
 
 
 
 
-// UNDERLINE EFFECT
+// STYLES FOR THE UNDERLINE EFFECT
 
 .tab::after {
     content: '';
@@ -124,5 +124,3 @@
 }
 
 .tab.selected { outline: none; }
-
-//end of underline effect
